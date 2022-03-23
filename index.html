@@ -5,19 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Poppins&family=Viga&display=swap"
+      rel="stylesheet"
+    />
     <style>
       video {
         width: 100%;
         height: auto;
         display: block;
-        border-radius: 2%;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      h1 {
+        font-family: "Bangers", cursive;
+        margin-bottom: 2%;
+        font-size: 2.5rem;
+      }
+
+      h2 {
+        font-family: "Viga", sans-serif;
+      }
+      h3 {
+        font-family: "Viga", sans-serif;
       }
     </style>
   </head>
   <body>
-    <section>
+    <h1>Portfolio</h1>
+    <section id="billeder">
+      <h2>Billeder:</21>
+      <img src="billeder/baggrundpink.svg" alt="Baggrundsbillede" />
+      <img src="billeder/findbillet.png" alt="findbillet" />
+      <img src="billeder/guldbillet.png" alt="guldbillet1" />
+      <img src="billeder/guldbillet2.png" alt="guldbillet2" />
+      <img src="billeder/tagetbillede.png" alt="tagetbillede" />
+    </section>
+    <section id="videoer">
+      <h2>Lange video:</h2>
       <video controls src=""></video>
-      <img src="" alt="" />
+      <h2>Korte videoer:</h2>
+      <h3>Facebook</h3>
+      <video controls src=""></video>
+      <h3>Instagram</h3>
+      <video controls src=""></video>
     </section>
   </body>
 </html>
